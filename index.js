@@ -1,5 +1,8 @@
 function calcularSaldoRankeadas(vitorias, derrotas) {
+    //Calcula o saldo de ranqueadas
     const saldoVitorias = vitorias - derrotas;
+
+    //determina o nível com base no nº de vitórias
     let nivel = '';
 
     if (vitorias < 10) {
